@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131D8C061F9E9B2C00E7297D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D8C051F9E9B2C00E7297D /* Constants.swift */; };
+		131D8C081F9EA31700E7297D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D8C071F9EA31700E7297D /* LoginVC.swift */; };
 		13C69F1F1F9961AE00991A03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C69F1E1F9961AE00991A03 /* AppDelegate.swift */; };
 		13C69F241F9961AE00991A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C69F221F9961AE00991A03 /* Main.storyboard */; };
 		13C69F261F9961AE00991A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C69F251F9961AE00991A03 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131D8C051F9E9B2C00E7297D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		131D8C071F9EA31700E7297D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		13C69F1B1F9961AE00991A03 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C69F1E1F9961AE00991A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13C69F231F9961AE00991A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		131D8C041F9E9B1800E7297D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				131D8C051F9E9B2C00E7297D /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		13C69F121F9961AE00991A03 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +81,7 @@
 		13C69F1D1F9961AE00991A03 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				131D8C041F9E9B1800E7297D /* Utilities */,
 				13C69F361F9AA5C000991A03 /* Model */,
 				13C69F351F9AA5BA00991A03 /* View */,
 				13C69F341F9AA5B200991A03 /* Controller */,
@@ -97,6 +110,7 @@
 			children = (
 				13C69F371F9AA5EA00991A03 /* ChatVC.swift */,
 				13C69F391F9AA5FD00991A03 /* ChannelVC.swift */,
+				131D8C071F9EA31700E7297D /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -259,9 +273,11 @@
 			files = (
 				13C69F381F9AA5EA00991A03 /* ChatVC.swift in Sources */,
 				13C69F3A1F9AA5FD00991A03 /* ChannelVC.swift in Sources */,
+				131D8C081F9EA31700E7297D /* LoginVC.swift in Sources */,
 				13C69F3D1F9AAC5B00991A03 /* GradientView.swift in Sources */,
 				13C69F1F1F9961AE00991A03 /* AppDelegate.swift in Sources */,
 				13C69F3B1F9AA9BD00991A03 /* SWRevealViewController.m in Sources */,
+				131D8C061F9E9B2C00E7297D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
